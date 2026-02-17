@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section class="home">
+            <div class="navbar">
+                <h1 class="title">QUOTEHUB</h1>
+                <h1 class="logo">QH</h1>
+                  <div class="menu-toggle" id="menuToggle">
+                    <img src="./images/ham2.png" alt="" id="hamburgerIcon" height="30px" width="30px">
+                  
+        
+
+                </div>
+                <!-- <img src="./images/exit.png" alt="" id="closeIcon" style="display:none;" height="50px" width="50px"> -->
+                <div class="links" id="links">
+                <a href="#hero">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#fav">Favorites</a>
+                <a href="#about">About</a>
+                
+                 <div class="buttons">
+                    <button onclick="location.href='#categories'" class="explore_btn">Explore</button>
+                </div>
+                 <img src="./images/exit.png" alt="" id="closeIcon" style="display:none;" height="50px" width="50px">
+                </div>
+               
+            </div>
+            <div class="hero" id="hero">
+                <h1 class="hero-text">Quotes that speak to you...</h1>
+                <p class="hero_p">From motivation to hustle--- find the words that push you foward</p>
+                <button onclick="location.href= '#categories'" class="hero-btn">Explore</button>
+            </div>
+        </section>
+
+                                <!-- Categories Section -->
+        <section class="categories" id="categories">
+            <h1 class="Explore">Explore...</h1>
+            <div class="form">
+                <div class="form-box">
+                    <input type="search" name="" class="search" placeholder="Enter a category.....">
+                    <button type = button class="search_btn" id="search_btn">search</button>
+                    <div class="dropdown">
+                       
+                    </div>
+                </div>
+                    <!-- Dropdown -->
+                     <select name="" id="categoryFilter" class="categoryFilter">
+                        <option value="" disabled selected>Categories</option>
+                        <option value="all">All</option>
+                        <option value="love">Love</option>
+                        <option value="Motivation">Motivation</option>
+                        <option value="Friendship">Friendship</option>
+                        <option value="Happiness">Happiness</option>
+                        <option value="Sadness">Sadness</option>
+                        <option value="Growth">Growth</option>
+                     </select>
+                    </div>
+            
+            <div class="cardContainer"></div>
+        </section>
+
+                                <!-- Favorites Section -->
+
+        <section class="fav" id="fav">
+            <h2 class="fav_text">Your Favorites...</h2>
+
+            <div class="favoritesContainer">
+
+            </div>
+        </section>
+
+
+        <!-- Middle section -->
+         <div class="middle_img">
+
+         </div>
+
+        <!-- About Section -->
+        <section class="about_sec" id="about">
+            <div class="about_text">
+         <h1 class="about_header">ABOUT QUOTEHUB</h1>
+        <p class="about_p1">A place to collect words that inspire,heal and motivate</p>
+            </div>
+            <!-- #2 -->
+
+             <div class="ABOUT">
+    <div class="about1">
+     <div class="about_text2">
+        <h2>WHY THE APP EXISTS</h2>
+        <p>Sometimes, a single sentence can change your mindset. This app gathers quotes from books, movies ,people and sacred texts to inspire you daily</p>
+        
+       </div>
+       <div class="about_image">
+        <img src="./images/undraw_books_wxzz.svg" alt="" class="books">
+    </div>
+    </div>
+
+     <!-- #3 -->
+
+       <div class="about_me">
+
+        <div class="about_image2">
+            <img src="./images/undraw_professional-woman-avatar_ivds.svg" alt="" class="pro">
+        </div>
+
+        <div class="about_text3">
+            <h1>ABOUT ME</h1>
+        <p>Built with love by Azeezat, a software engineering student who loves meaningful words & technology</p>
+        </div>
+        
+       </div>
+
+             </div>
+        </section>
+                            <!-- Footer -->
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-section_about">
+      <h1>QuoteHub</h1>
+      <p>Your daily source of inspiration. Browse, save, and share your favorite quotes.</p>
+    </div>
+
+    <div class="footer-section_links">
+      <h2>Quick Links:</h2> <br>
+      <a href="#">Home</a>
+      <a href="#">Categories</a>
+      <a href="#">Favorites</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="footer-section_social">
+      <span class="social_text">Follow Us</span>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+
+  <div class="footer_bottom">
+    <p>© 2026 QuoteHub. All rights reserved.</p>
+  </div>
+</footer>
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
